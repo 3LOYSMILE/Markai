@@ -1,0 +1,67 @@
+@import './gradients.css';
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	background-color: rgba(0, 0, 89, 1);
+}
+
+.bg-main {
+	background-color: rgba(0, 0, 89, 1);
+}
+
+/* margin: 0 auto; - center use only %*/
+
+.block-center {
+	margin: 0 auto 30px auto;
+	/* max-width: 50%; */
+}
+
+.size-large{
+	font-size: 30px;
+}
+
+img{
+	
+	max-width: 100%;
+}
+
+
+.text-center{
+	text-align: center;
+}
+
+.vector{
+	margin: 20px 0 20px 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.block-center {
+		max-width: 50%;
+	}
+
+	.size-large{
+		font-size: 70px;
+	}
+
+	.marketing{
+		justify-content: center;
+		display: flex;
+	}
+
+	.right{
+		
+		max-width: 30%;
+	}
+}
+
