@@ -30,7 +30,7 @@
 	background: var(--bg-gradient);
 	display: inline-block;
 	border-radius: 0.5em;
-	padding: 2px;
+	padding: 3px;
 }
 
 .round-btn {

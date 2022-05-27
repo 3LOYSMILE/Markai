@@ -1,88 +1,99 @@
+a {
+  text-decoration: none;
+}
 
-a{
-    text-decoration: none;
-  }
-  
-  /* GRID */
-  
-  .grid { max-width: 940px; width: 100%; margin: 0 auto; }
-  
-  .four { 
-      width: 32.26%; 
-  }
-  
-  /* COLUMNS */
-  
-  .col {
-    display: block;
-    float:left;
-    margin: 1% 0 1% 1.6%;
-  }
-  
-  .col:first-of-type { margin-left: 0; }
-  
-  /* CLEARFIX */
-  
-  .cf:before,
-  .cf:after {
-      content: " ";
-      display: table; 
-  }
-  
-  .cf:after { clear: both; }
-  .cf { *zoom: 1; }
-  
-  /* GENERAL STYLES FOR BOX AND OVERLAY */
-  
-  .box {
-    display: block;
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    background-color: #bbb;
-    text-align: center;
-    position: relative;
-  }
-  
-  .overlay{
-    width: 100%;
-    height:100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  /* SLIDE IN */
-  
-  .slide-in .overlay{
-    background-color: #6addaa;
-    line-height: 200px;
-    color: #fff;
-    transform: translateX(-100%);
-    -webkit-transition: transform 0.5s ease-out;
-    -o-transition: transform 0.5s ease-out;
-    transition: transform 0.5s ease-out;
-  }
-  
-  .slide-in .box:hover .overlay{
-    transform: translateX(0);
-  }
-  
-  /* SLIDE UP */
-  
-  .slide-up .overlay{
-    background-color: #3dcbe8;
-    line-height: 200px;
-    color: #fff;
-    transform: translateY(100%);
-    -webkit-transition: transform 0.5s ease-out;
-    -o-transition: transform 0.5s ease-out;
-    transition: transform 0.5s ease-out;
-  }
-  
-  .slide-up .box:hover .overlay{
-    transform: translateY(0);
-  }
-  
+/* GRID */
+
+.grid {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.four {
+  width: 32.26%;
+}
+
+/* COLUMNS */
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-of-type {
+  margin-left: 0;
+}
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/* GENERAL STYLES FOR BOX AND OVERLAY */
+
+.box {
+  display: block;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: rgb(8, 8, 75);
+  text-align: center;
+  position: relative;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* SLIDE IN */
+
+.slide-in .overlay {
+  background-color: #6addaa;
+  line-height: 200px;
+  color: #fff;
+  transform: translateX(-100%);
+  -webkit-transition: transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.slide-in .box:hover .overlay {
+  transform: translateX(0);
+}
+
+/* SLIDE UP */
+
+.slide-up .overlay {
+  background-color: #3dcbe8;
+  line-height: 200px;
+  color: #fff;
+  transform: translateY(100%);
+  -webkit-transition: transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.slide-up .box:hover .overlay {
+  transform: translateY(0);
+}
