@@ -37,6 +37,10 @@
 	background: var(--header-button-gradient);
 }
 
+.btn-blue{
+	background-color: rgb(8, 8, 75) !important;
+}
+
 /* gradient font */
 .gradient-text {
 	background: var(--text-gradient);

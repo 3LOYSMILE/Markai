@@ -37,7 +37,19 @@ img{
 	cursor: pointer;
 }
 
+.container{
+	margin-bottom: 3rem;
+}
 
+.input ,.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+	opacity: 1; /* Firefox */
+  }
+
+.form-control:focus,.input:focus{
+	color: white;
+	  border: none;
+  }
 
 
 @media screen and (max-width: 768px) {
