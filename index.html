@@ -294,26 +294,29 @@
 
             <div class="row ">
                 <div class="col button-gradient-wrapper ">
-                    <input type="text" class="form-control btn-blue" placeholder="First name" aria-label="First name">
+                    <input type="text" class="form-control btn-blue" placeholder="First name" aria-label="First name" id="name">
                 </div>
                 <div class="col button-gradient-wrapper ">
-                    <input type="text" class="form-control btn-blue " placeholder="Email" aria-label="Email">
+                    <input type="text" class="form-control btn-blue " placeholder="Email" aria-label="Email" id="email">
                 </div>
             </div>
             <div class="mb-3 row button-gradient-wrapper  display-block-i">
 
-                <textarea class="form-control btn-blue py-4" placeholder="Email" id="exampleFormControlTextarea1"
-                    rows="3"></textarea>
+                <textarea class="form-control btn-blue py-4" placeholder="Notes" id="notes"
+                    rows="3" ></textarea>
             </div>
             <aside class="button-group d-flex justify-content-center">
                 <div class="button-gradient-wrapper">
-                    <button class="btn btn-blue text-light fs-5" type="submit">SUBMIT</button>
+                    <button class="btn btn-blue text-light fs-5 btn-js" type="submit">SUBMIT</button>
                 </div>
             </aside>
 
 
         </div>
 
+        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
